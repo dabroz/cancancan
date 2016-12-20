@@ -45,16 +45,6 @@ Lint/UnusedBlockArgument:
     - 'spec/cancan/controller_additions_spec.rb'
     - 'spec/cancan/controller_resource_spec.rb'
 
-# Offense count: 16
-# Cop supports --auto-correct.
-# Configuration parameters: AllowUnusedKeywordArguments, IgnoreEmptyMethods.
-Lint/UnusedMethodArgument:
-  Exclude:
-    - 'lib/cancan/controller_additions.rb'
-    - 'lib/cancan/model_adapters/abstract_adapter.rb'
-    - 'lib/cancan/model_adapters/active_record_4_adapter.rb'
-    - 'lib/cancan/model_adapters/sequel_adapter.rb'
-
 # Offense count: 36
 Lint/UselessAssignment:
   Exclude:
